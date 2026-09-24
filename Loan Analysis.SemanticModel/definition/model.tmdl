@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Bank_loan_data"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Bank_loan_data
+ref table DateTableTemplate_378edf8c-c93b-49d3-a489-8929b0f31d4d
+ref table LocalDateTable_5d9d31aa-845f-4a84-85d3-6e777b720914
+ref table LocalDateTable_d322eeb7-21b1-41fe-90bb-82d16e722f36
+ref table LocalDateTable_00856f07-ae88-4223-bab5-6f500fb0608a
+ref table 'Date Table'
+ref table LocalDateTable_7a4eea86-7239-40cb-b329-0f4069139ce1
+ref table 'Select Measure '
+
+ref cultureInfo en-US
+

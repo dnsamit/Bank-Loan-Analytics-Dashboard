@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "e29d37e2390d73e8244b",
+  "displayName": "Overview",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#00083D'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "displayArea": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Middle'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "3facf59477b00e137b7d",
+      "target": "182e9ff27710508a143a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "3facf59477b00e137b7d",
+      "target": "20edc8e8b5811ac8758e",
+      "type": "DataFilter"
+    },
+    {
+      "source": "3facf59477b00e137b7d",
+      "target": "8c3092e5bae3d3010017",
+      "type": "DataFilter"
+    }
+  ]
+}

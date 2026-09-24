@@ -1,0 +1,24 @@
+relationship d7c6233c-539f-464b-8ed8-edad2350005d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Bank_loan_data.last_credit_pull_date
+	toColumn: LocalDateTable_5d9d31aa-845f-4a84-85d3-6e777b720914.Date
+
+relationship 76f48e1f-0bd1-4f71-b257-2f0c12415483
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Bank_loan_data.last_payment_date
+	toColumn: LocalDateTable_d322eeb7-21b1-41fe-90bb-82d16e722f36.Date
+
+relationship f62cab7c-d304-4aae-a15f-2ae0451ae410
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Bank_loan_data.next_payment_date
+	toColumn: LocalDateTable_00856f07-ae88-4223-bab5-6f500fb0608a.Date
+
+relationship 06c8e407-5a83-4442-bc85-41f58a8a21fa
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Date Table'.Date
+	toColumn: LocalDateTable_7a4eea86-7239-40cb-b329-0f4069139ce1.Date
+
+relationship f3c0be1b-529a-8d6a-6297-250896653c6f
+	fromColumn: Bank_loan_data.issue_date
+	toColumn: 'Date Table'.Date
+
